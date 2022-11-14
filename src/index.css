@@ -1,0 +1,54 @@
+  /* Carousel styling */
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  .carousel-item.active {
+    height: 100vh;
+  }
+
+  .carousel-item:nth-child(1) {
+    background-image: url('https://f.discover.ua/city/198/Q8MBf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(2) {
+    background-image: url('https://f.discover.ua/location/3717/4ngIs.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .carousel-item:nth-child(3) {
+    background-image: url('https://f.discover.ua/location/3722/D4V-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  /* Height for devices larger than 576px */
+  @media (min-width: 992px) {
+    #introCarousel {
+      margin-top: -58.59px;
+    }
+    #introCarousel,
+    .carousel-inner,
+    .carousel-item,
+    .carousel-item.active {
+      height: 50vh;
+    }
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+  }
+  .navbar .nav-link .support {
+    color:blue;
+    font-weight: bold;
+  }
+  .navbar .nav-link .ua {
+    color:yellow;
+    font-weight: bold;
+  }
+  .card img {
+    max-height: 300px;
+  }
